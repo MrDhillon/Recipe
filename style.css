@@ -1,0 +1,112 @@
+body {
+	
+	margin: auto;
+	background-color: #247ba0;
+}
+
+header {
+	font-family: verdana, Geneva, sans-serif;
+	font-size: 5em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.row1 {
+	height: 620px;
+	width: 100%;
+	background-color: #70c1b3;
+	padding: 2% 10%;
+}
+
+.row2 {
+	height: 620px;
+	width: 100%;
+	background-color: #ff1654;
+	padding: 2% 10%;
+}
+
+.row3 {
+	height: 720px;
+	width: 100%;
+	background-color: #b2dbbf;
+	padding: 2% 10%;
+}
+
+.footer {
+	height: 100px;
+	background-color: #70c1b3;
+
+}
+
+/*columns*/
+.left_box {
+	margin-right: 5%;
+	margin-top: 5%;
+	display: inline;
+	float: left;
+	width: 35%
+}
+
+.right_box {
+	margin-right: 15%;
+	margin-top: 5%;
+	display: inline;
+	float: right;
+	width: 45%;
+}
+
+/*Styling for content box*/
+
+.content {
+	background-color: #FCE4AB;
+	border-radius: 25px;
+	padding: 5px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+/*Image Styles*/
+.image {
+	height: 400px;
+	width: 600px;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+/*Interaactive*/
+.button {
+
+	
+	background-color: #FCE4AB;
+
+
+}
+
+ul li{
+	background: #eeeeee;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 0.8em;
+	
+}
+
+ol li{
+	background: #eeeeee;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 0.8em;
+	
+}
+
+ol .ui-selected {
+	background: #F39814; color: white;
+}
+
+
+.stroked {
+	text-decoration: line-through;
+}
